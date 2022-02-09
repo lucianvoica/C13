@@ -1,0 +1,8 @@
+C:\Users\lucian\source\repos\C13\curs\curs2-2\bin\Debug\curs2-2.exe.config
+C:\Users\lucian\source\repos\C13\curs\curs2-2\bin\Debug\curs2-2.exe
+C:\Users\lucian\source\repos\C13\curs\curs2-2\bin\Debug\curs2-2.pdb
+C:\Users\lucian\source\repos\C13\curs\curs2-2\obj\Debug\curs2-2.csproj.SuggestedBindingRedirects.cache
+C:\Users\lucian\source\repos\C13\curs\curs2-2\obj\Debug\curs2-2.csproj.CoreCompileInputs.cache
+C:\Users\lucian\source\repos\C13\curs\curs2-2\obj\Debug\curs2-2.exe
+C:\Users\lucian\source\repos\C13\curs\curs2-2\obj\Debug\curs2-2.pdb
+C:\Users\lucian\source\repos\C13\curs\curs2-2\obj\Debug\curs2-2.csproj.AssemblyReference.cache

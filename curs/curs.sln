@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "curs", "curs\curs.csproj", "{3A89086F-11AE-4A9A-B7AF-2EB85D3F162C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curs2", "Curs2\Curs2.csproj", "{57252F3B-F47A-4695-9C47-2350A3CD1612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "curs2-2", "curs2-2\curs2-2.csproj", "{AF2871A5-ECDA-4924-87BD-BED0AD729C08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3A89086F-11AE-4A9A-B7AF-2EB85D3F162C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A89086F-11AE-4A9A-B7AF-2EB85D3F162C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A89086F-11AE-4A9A-B7AF-2EB85D3F162C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57252F3B-F47A-4695-9C47-2350A3CD1612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57252F3B-F47A-4695-9C47-2350A3CD1612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57252F3B-F47A-4695-9C47-2350A3CD1612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57252F3B-F47A-4695-9C47-2350A3CD1612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2871A5-ECDA-4924-87BD-BED0AD729C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2871A5-ECDA-4924-87BD-BED0AD729C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2871A5-ECDA-4924-87BD-BED0AD729C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2871A5-ECDA-4924-87BD-BED0AD729C08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

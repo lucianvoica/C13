@@ -95,8 +95,19 @@ namespace curs
 
             Console.WriteLine(t3 + t5); //35
 
-            bool adev = t3 < t4;
-            Console.WriteLine(adev);
+
+            int x1= 3;
+            int y1 = 5;
+
+            int a1 = 38744854;
+            short b1 = 4343;  //<32000
+
+            b1 = (short) a1;  //operator cast -- de conversie
+
+            Console.WriteLine(b1); //3874
+
+            string mesaj = x1.ToString();
+
         }
     }
 }
