@@ -6,68 +6,29 @@ using System.Threading.Tasks;
 
 namespace curs3
 {
-    internal class Program
+
+    public class Program
     {
         static void Main(string[] args)
         {
-            //Persoana Ana;
-            //Ana = new Persoana();
-            //Persoana Bia = new Persoana();
+            double rezultat = ConvertorValutar.ConvertEurToRon(100);
 
-            //Student s1;
-            //Student s2 = new Student();
-            //s1 = new Student();
+            double rezultat2 = ConvertorValutar.ConvertEurToRon(345);
 
-            //Elev e1 = new Elev();
-            //Persoana p3 = new Persoana();
+            double rezultat3 = ConvertorValutar.ConvertEurToRon(345);
 
-            //p3.SetNumeSiPrenume("popescu", "ion");
-
-            //p3.AfiseazaPrenume(); //ion
-
-            //p3.SchimbaPrenumele("vasile");
-
-            //p3.AfiseazaPrenume(); //vasile
-
-            //p3.PrintNumeComplet(); //vasile popescu
-
-            //p3.SchimbaPrenumele("Marcel");
-
-            //p3.PrintNumeComplet(); //Marcel popescu
+            Console.WriteLine("convertor:" + rezultat2 + " convertor2: " + rezultat3);
 
 
-            Persoana p4 = new Persoana();
-            p4.SchimbaNumeSiPrenume("Ionescu", "Ciprian");
-            p4.PrintNumeComplet();
-            p4.SchimbaNumeSiPrenume(prenume: "Ciprian", nume: "Ionescu");
+            //30C -> F
 
-            Persoana p5 = new Persoana();
-            p5.SchimbaNumePrenumeCNP("NUME", "PRENUME", "1000");
-            p5.PrintNumeComplet();
+            double tempF = ConvertorTemperatura.ConvertCtoF(30);
 
-            string numeCompletP5 = p5.GetNumeComplet();
-            Console.WriteLine(numeCompletP5);
+            Console.WriteLine("30C = " + tempF + "F");
 
-            Persoana p6 = new Persoana();
-            //p6.SetPrenume("Marcel");
-            //Console.WriteLine(p6.GetPrenume());
+            Student s = new Student();
+            s.PrinteazaInformatiiComplete();
 
-            Persoana pers1 = new Persoana();
-            //pers1.SetNume("DO_IT_ACADEMY");
-            pers1.Nume = "DO_IT_ACADEMY";
-            pers1.Prenume = "Cursant";
-            pers1.Varsta = 20;
-            pers1.Cnp = "12345678234";
-            pers1.EsteBarbat = true;
-
-            Console.WriteLine(
-                pers1.Prenume + " " +
-                pers1.Nume + ", " +
-                pers1.Varsta + " ani"
-            );
-
-            pers1.Nume = "Popescu";
-            Console.WriteLine(pers1.Nume);
         }
     }
 }

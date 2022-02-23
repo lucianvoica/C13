@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{32421C53-DE54-4F5F-A4BB-71D073AE61A5}</ProjectGuid>
+    <ProjectGuid>{E4BFAD0C-9E6E-4069-AB3A-7ACDF92D41DB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>curs3</RootNamespace>
-    <AssemblyName>curs3</AssemblyName>
+    <RootNamespace>Animale</RootNamespace>
+    <AssemblyName>Animale</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConvertorTemperatura.cs" />
-    <Compile Include="ConvertorValutar.cs" />
-    <Compile Include="Elev.cs" />
-    <Compile Include="Persoana.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

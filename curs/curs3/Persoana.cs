@@ -8,87 +8,47 @@ namespace curs3
 {
     public class Persoana
     {
-        //string prenume;
-        //private int varsta;
-        private string cnp;
         private bool esteBarbat;
         public string adresa;
 
         public string Nume { get; set; }
         public string Prenume { get; set; }
         public int Varsta { get; set; }
+        protected string CNP { get; set; }
 
-        public string Cnp
-        {
-            get
-            {
-                return cnp;
-            }
-            set
-            {
-                cnp = value;
-            }
-        }
-        public bool EsteBarbat
-        {
-            get
-            {
-                return esteBarbat;
-            }
-            set
-            {
-                this.esteBarbat = value;
-            }
-        }
+        public static int ProprietateStatica { get; set; }
 
-
-
-        //public string GetNume()
-        //{
-        //    return nume;
-        //}
-        //public void SetNume(string nume)
-        //{
-        //    this.nume = nume;
-        //}
-        //public string GetPrenume()
-        //{
-        //    this.nume;
-        //    return prenume;
-        //} 
-        //public void SetPrenume(string prenume)
-        //{
-        //    this.prenume = prenume;
-        //}
-        //public int GetVarsta()
-        //{
-        //    return varsta;
-        //}
-        //public void SetVarsta(int varsta)
-        //{
-        //    this.varsta = varsta;
-        //}
-        public string GetCnp()
+        public Persoana()
         {
-            return cnp;
+            this.Nume = "Popescu";
+            this.Prenume = "Ion";
         }
-        public void SetCnp(string cnp)
+        public Persoana(string prenume)
         {
-            this.cnp = cnp;
+            this.Prenume = prenume;
         }
-        public bool GetEsteBarbat()
+        public Persoana(int varsta)
         {
-            return esteBarbat;
+            this.Varsta = varsta;
         }
-        public void SetEsteBarbat(bool esteBarbat)
+        public Persoana(string nume, string prenume) : this(prenume)
         {
-            this.esteBarbat = esteBarbat;
+            this.Nume = nume;
+            Console.WriteLine("Constructor persoana");
         }
-       
+        public Persoana(string prenume, int varsta)
+        {
+            this.Prenume = prenume;
+            this.Varsta = varsta;
+        }
+        public Persoana(string nume, string prenume, int varsta) : this(nume, prenume)
+        {
+            this.Varsta = varsta;
+        }
 
         public void AfiseazaPrenume()
         {
-            Console.WriteLine("prenumele este " + Prenume);
+            Console.WriteLine("Prenumele este " + Prenume);
         }
 
         public void SetNumeSiPrenume(string nume, string prenume)
@@ -127,7 +87,6 @@ namespace curs3
         {
             this.Nume = nume;
             this.Prenume = prenume;
-            this.cnp = cnp;
         }
 
     }

@@ -15,7 +15,12 @@
       "ProjectGuid": "af2871a5-ecda-4924-87bd-bed0ad729c08",
       "DisplayName": "curs2-2",
       "ColorIndex": 2
+    },
+    "32421c53-de54-4f5f-a4bb-71d073ae61a5": {
+      "ProjectGuid": "32421c53-de54-4f5f-a4bb-71d073ae61a5",
+      "DisplayName": "curs3",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
