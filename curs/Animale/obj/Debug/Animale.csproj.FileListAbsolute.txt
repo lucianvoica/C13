@@ -1,0 +1,8 @@
+C:\Users\lucian\source\repos\C13\curs\Animale\bin\Debug\Animale.exe.config
+C:\Users\lucian\source\repos\C13\curs\Animale\bin\Debug\Animale.exe
+C:\Users\lucian\source\repos\C13\curs\Animale\bin\Debug\Animale.pdb
+C:\Users\lucian\source\repos\C13\curs\Animale\obj\Debug\Animale.csproj.AssemblyReference.cache
+C:\Users\lucian\source\repos\C13\curs\Animale\obj\Debug\Animale.csproj.SuggestedBindingRedirects.cache
+C:\Users\lucian\source\repos\C13\curs\Animale\obj\Debug\Animale.csproj.CoreCompileInputs.cache
+C:\Users\lucian\source\repos\C13\curs\Animale\obj\Debug\Animale.exe
+C:\Users\lucian\source\repos\C13\curs\Animale\obj\Debug\Animale.pdb

@@ -58,10 +58,19 @@ namespace Animale
 
             Pisica p1 = new Pisica();
 
-            p1 = (Pisica) animal; // eroare daca nu reuseste!!! 
+
+
+           // p1 = (Pisica) animal; // eroare daca nu reuseste!!! 
 
             p1 = animal as Pisica; // nu mai da eroare si p1 = null;
-            
+            if (p1 != null)
+            {
+                //continua sa faci ce trebuie facut
+
+            } else
+            {
+                //termina programul linistit
+            }
 
             p1.Miauna();
 
